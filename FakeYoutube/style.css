@@ -1,0 +1,117 @@
+*{
+	box-sizing: border-box;
+}
+body {
+	margin: 0;
+	padding: 0;
+}
+.navBar {
+	width: 100vw;
+	min-height: 60px;
+	background-color: #262626;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+.navBar .menuBarsAndLogo {
+	width: 140px;
+	height: 60px;
+	padding-left: 5px;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+.navBar .menuBarsAndLogo .youtubeLogo {
+	width: 100px;
+	height: auto;
+}
+.navBar .menuBarsAndLogo i {
+	font-size: 30px;
+}
+.navBar .seachBar {
+	width: 660px;
+	display:flex;
+	align-items: center;
+	justify-content: space-between;
+	gap: 0;
+	height: 40px;
+	position: relative;
+}
+.navBar .seachBar .searchInput {
+  width: calc(100% - 50px);
+  height: 100%;
+  background-color: hsl(0, 0%, 7%);
+  outline: 0;
+  border: 0.5px solid #484848;
+  color: white;
+  font-size: 19px;
+  padding-left: 5px;
+  font-family: arial;
+}
+.navBar .seachBar .searchLogoAndMic {
+	width: 50px;
+	height: 100%;
+	display: flex;
+	align-items: center;
+	position: absolute;
+	right: 0;
+    background-color: #262626;
+}
+.fa-solid.fa-magnifying-glass {
+  font-size: 26px;
+  font-weight: ;
+  position: absolute;
+  right: calc(8% - 2px);
+  background-color: #171515;
+  color: white;
+  width: 66px;
+  height: calc(100% - 1px);
+  text-align: center;
+  padding-top: 5px;
+}
+.fa-solid.fa-microphone {
+  font-size: 28px;
+  color: white;
+  width: 43px;
+  height: 43px;
+  position: absolute;
+  right: 0;
+  padding-top: 10px;
+  border-radius: 30px;
+  background-color: hsl(0, 0%, 11%);
+  text-align: center;
+}
+.socialBar {
+  width: 200px;
+  background-color: transparent;
+  display: flex;
+  align-content: center;
+  justify-content: space-between;
+  height: 40px;
+  margin-right: 15px;
+  align-self: center;
+  align-content: center;
+  padding-top: 10px;
+  position: relative;
+}
+.socialBar i {
+  font-size: 23px;
+  color: white;
+}
+.userImage {
+  width: 40px;
+  height: 40px;
+  border: 1px solid black;
+  margin-top: 0;
+  border-radius: 50%;
+  position: relative;
+  right: 0;
+  top: -10px;
+  overflow: hidden;
+}
+.userImage img {
+	width: 160%;
+	height: auto;
+	position: relative;
+	left: -40%;
+}
